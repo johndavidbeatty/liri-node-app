@@ -147,9 +147,13 @@ function movieThis() {
 
         printOut(output)
 
+      } else {
+          console.log("there was an error with accessing IMDB")
       }
     });
 };
+
+//  function for the do-what-it-says. grab the command and the target and then pass it to the switch/case to send it down the right path.
 
 function doWhat() {
 
